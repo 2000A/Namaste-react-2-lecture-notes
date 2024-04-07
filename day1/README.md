@@ -33,3 +33,9 @@ root.render(parent);
 ```
 
 above code creates an react object which first gets converted to html element then that html element gets added to the place where we will render it i.e., <div id="root">{all code will be rendered here only}</div>  
+
+
+# …or push an existing repository from the command line
+## git remote add origin git@github.com:2000A/Namaste-react-2-lecture-notes.git
+## git branch -M main
+## git push -u origin main
