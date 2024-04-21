@@ -4,6 +4,8 @@
   "description": "Namaste React creating our code production ready",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
