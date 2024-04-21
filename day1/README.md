@@ -39,3 +39,14 @@ above code creates an react object which first gets converted to html element th
 ## git remote add origin git@github.com:2000A/Namaste-react-2-lecture-notes.git
 ## git branch -M main
 ## git push -u origin main
+
+https://git@github.com:2000A/Namaste-react-2-lecture-notes.git
+
+
+```JavaScript
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(heading); 
+
+```
+using ReactDOM react will create virtual dom inside that virtual dom we will give element to createRoot (a root element will made).render(heading) will take the heading and paste it into that virtual dom 
