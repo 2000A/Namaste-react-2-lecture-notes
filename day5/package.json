@@ -1,0 +1,29 @@
+{
+  "name": "day5",
+  "version": "1.0.0",
+  "description": "lets get hooked mission swiggy clone",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/2000A/Namaste-react-2-lecture-notes.git"
+  },
+  "author": "Abhishek Ram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2000A/Namaste-react-2-lecture-notes/issues"
+  },
+  "homepage": "https://github.com/2000A/Namaste-react-2-lecture-notes#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
