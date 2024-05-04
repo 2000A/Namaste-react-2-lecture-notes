@@ -1083,7 +1083,7 @@ const resList =  [
 
 const RestaurantCard = (prop) =>{
     const {resData} = prop;
-    const {cloudinaryImageId,name,cuisines,avgRating,sla,costForTwo} = resData?.info; //optional chaining
+    const {cloudinaryImageId,name,cuisines,avgRating,sla,costForTwo} = resData?.info; //optional chaining ⭐best practice
     const {deliveryTime} = sla;
     return(
         <div className='res-card' style={{background:"#f0f0f0f0"}}>
