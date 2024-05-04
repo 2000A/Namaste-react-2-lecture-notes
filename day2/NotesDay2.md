@@ -34,7 +34,7 @@ A. Local Server
     File Watching Algorithm
     Minification
     Compress
-    Different dev and prod bundles
+    Different dev and prod build
 
 Q. What is `.gitignore`? What should we add and not add into it?
 A. files which we don't want to upload it to github and don't need to track of. Simply write those file names in .gitignore file. 
