@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header styling */
+.header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+}
+
+.nav-items > ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items> ul> li{
+    margin-top: 25px;
+    padding:30px;
+    font-size: 24px;
+    list-style-type: none;
+}
+/* Body styling */
+
+.body{
+    border: 1px solid red;
+}
+
+.search{
+    margin: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    padding: 5px;
+    margin: 5px;
+    width: 280px;
+    background-color: #f0f0f0;   
+}
+
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    /* width: 190px;
+    height: 240px; */
+}
+
+.res-logo{
+    width:100%;
+}
+
+.filter-btn{
+    margin: 10px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.filter-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Shimmer styling */
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: #e0e0e0;
+}
+
+
+
+/* CSS login/logout btn */
+.login-btn {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: 0 40px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.login-btn:hover,
+.login-btn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.login-btn:hover {
+  transform: translateY(-1px);
+}
+
+.login-btn:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.filter{
+    display: flex;
+}
