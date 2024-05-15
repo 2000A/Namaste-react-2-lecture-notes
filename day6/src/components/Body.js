@@ -10,6 +10,7 @@ const Body = () => {
   //First the Body component will render and as render cycle ends react will call useEffects callback function.
   useEffect(() => {
     fetchData();
+    
   }, []);
 
   const fetchData = async () => {
